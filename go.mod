@@ -6,7 +6,7 @@ require (
 	github.com/fil-forge/automobile v0.0.1
 	github.com/fil-forge/go-ipni-tools v0.0.0-20260820150418-78ca0c16834d
 	github.com/fil-forge/libforge v0.0.0-20260828121550-2585ed1e5e50
-	github.com/fil-forge/ucantone v0.0.0-20260827134420-25cf8340b9a1
+	github.com/fil-forge/ucantone v0.0.0-20261120104359-4253712d41e4
 	github.com/fil-forge/ucantool v0.1.1-0.20260828113620-3bf3c8647457
 	github.com/ipfs/go-cid v0.6.2
 	github.com/ipni/go-libipni v0.8.2
@@ -19,11 +19,11 @@ require (
 )
 
 require (
-	github.com/alanshaw/dag-json-gen v0.0.9 // indirect
+	github.com/alanshaw/dag-json-gen v0.0.11 // indirect
 	github.com/alecthomas/chroma/v2 v2.27.0 // indirect
 	github.com/decred/dcrd/dcrec/secp256k1/v4 v4.4.1 // indirect
 	github.com/dlclark/regexp2/v2 v2.2.1 // indirect
-	github.com/gobwas/glob v0.2.3 // indirect
+	github.com/gobwas/glob v1.1.0 // indirect
 	github.com/inconshreveable/mousetrap v1.1.0 // indirect
 	github.com/ipld/go-ipld-prime v0.24.0 // indirect
 	github.com/klauspost/cpuid/v2 v2.4.0 // indirect
