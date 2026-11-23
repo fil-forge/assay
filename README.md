@@ -83,6 +83,20 @@ DID:    did:key:z6MksdurUPk5bnKg34ZhRoCH6yrRdQzCTpSy8EvnheVJT7bE
 PeerID: 12D3KooWP11ydH5MT96hLTERNpyn2gPGJAkz5dH6PpNtFMgBRqXn
 ```
 
+### `assay did resolve <did>`
+
+Fetch the DID document of a `did:web` and print each key it lists as a
+`did:key`, with the libp2p peer ID for an Ed25519 key. A Forge storage node is a
+`did:web`, and this finds the peer ID it advertises under. `--insecure` fetches
+the document over HTTP, for a local stack.
+
+```console
+$ assay did resolve did:web:piri.forge.example
+DID:    did:web:piri.forge.example
+Key:    did:key:z6MksdurUPk5bnKg34ZhRoCH6yrRdQzCTpSy8EvnheVJT7bE
+PeerID: 12D3KooWP11ydH5MT96hLTERNpyn2gPGJAkz5dH6PpNtFMgBRqXn
+```
+
 ### `assay flatfs path <blob-cid-or-multihash>`
 
 Given a blob CID or a multibase encoded multihash, print the path of the blob

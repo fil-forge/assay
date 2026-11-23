@@ -19,8 +19,8 @@ github.com/fil-forge/go-ipni-tools v0.0.0-20260820150418-78ca0c16834d h1:iEXJC5a
 github.com/fil-forge/go-ipni-tools v0.0.0-20260820150418-78ca0c16834d/go.mod h1:fwLjqz34DvfoWcuzyH8Wr7dTJdr3mzYjxZRweysHOH4=
 github.com/fil-forge/libforge v0.0.0-20260828121550-2585ed1e5e50 h1:+tzowzOiQD75OJTZv1CDq+9GuWRiz7M22u2Ul/PsUPw=
 github.com/fil-forge/libforge v0.0.0-20260828121550-2585ed1e5e50/go.mod h1:09nIz6/BJD0Qdb8YrLwVeNQwQprTCFWVPULL3c5CNJs=
-github.com/fil-forge/ucantone v0.0.0-20261120104359-4253712d41e4 h1:2hQIpdhNOu0QKY1rpdsYnJRtNG/0MklyETPraR/ms+Y=
-github.com/fil-forge/ucantone v0.0.0-20261120104359-4253712d41e4/go.mod h1:PJe9Lcv+QWawlM29ItA9y5JzFIs37gZ3jODxYKXbQkM=
+github.com/fil-forge/ucantone v0.0.0-20261123131543-0ef2b25abb66 h1:bjARwsoQ+D3xANVSIbCSQSUvb5ZR4GdGV8dRXnoD/cs=
+github.com/fil-forge/ucantone v0.0.0-20261123131543-0ef2b25abb66/go.mod h1:PJe9Lcv+QWawlM29ItA9y5JzFIs37gZ3jODxYKXbQkM=
 github.com/fil-forge/ucantool v0.1.1-0.20260828113620-3bf3c8647457 h1:48NcwNQAOwhGmF3kz4C6xeHOTxguDWZQZxYtgnSFePg=
 github.com/fil-forge/ucantool v0.1.1-0.20260828113620-3bf3c8647457/go.mod h1:dKrZ/mnZNodtygZy+QpnFapV5zd9OuLQjtlSlkamwIM=
 github.com/frankban/quicktest v1.14.6 h1:7Xjx+VpznH+oBnejlPUj8oUpdxnVs4f8XU8WnHkI4W8=
