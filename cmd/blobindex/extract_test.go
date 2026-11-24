@@ -8,6 +8,7 @@ import (
 	"testing"
 
 	cmdblobindex "github.com/fil-forge/assay/cmd/blobindex"
+	"github.com/fil-forge/assay/internal/cmdtest"
 	"github.com/fil-forge/libforge/blobindex"
 	"github.com/fil-forge/libforge/digestutil"
 	"github.com/fil-forge/ucantone/testutil"
@@ -17,6 +18,7 @@ import (
 
 func exec(t *testing.T, stdin []byte, args ...string) (string, error) {
 	t.Helper()
+	cmdtest.ResetFlags(t, cmdblobindex.Cmd)
 	var stdout, stderr bytes.Buffer
 	cmdblobindex.Cmd.SetOut(&stdout)
 	cmdblobindex.Cmd.SetErr(&stderr)

@@ -8,6 +8,7 @@ import (
 	"time"
 
 	cmdmetadata "github.com/fil-forge/assay/cmd/ipni/metadata"
+	"github.com/fil-forge/assay/internal/cmdtest"
 	"github.com/fil-forge/go-ipni-tools/pkg/metadata"
 	"github.com/fil-forge/libforge/commands"
 	"github.com/fil-forge/libforge/commands/assert"
@@ -22,6 +23,7 @@ import (
 
 func exec(t *testing.T, args ...string) (string, error) {
 	t.Helper()
+	cmdtest.ResetFlags(t, cmdmetadata.Cmd)
 	var stdout, stderr bytes.Buffer
 	cmdmetadata.Cmd.SetOut(&stdout)
 	cmdmetadata.Cmd.SetErr(&stderr)
