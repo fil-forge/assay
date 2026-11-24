@@ -56,7 +56,7 @@ var resolveCmd = &cobra.Command{
 				if errors.Is(err, peerkey.ErrUnsupportedKey) {
 					continue
 				}
-				return err
+				return fmt.Errorf("deriving the peer ID of %s: %w", key, err)
 			}
 			fmt.Fprintf(w, "PeerID:\t%s\n", id)
 		}
