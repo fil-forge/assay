@@ -5,11 +5,13 @@ import (
 	"testing"
 
 	cmddid "github.com/fil-forge/assay/cmd/did"
+	"github.com/fil-forge/assay/internal/cmdtest"
 	"github.com/stretchr/testify/require"
 )
 
 func exec(t *testing.T, args ...string) (string, error) {
 	t.Helper()
+	cmdtest.ResetFlags(t, cmddid.Cmd)
 	var stdout, stderr bytes.Buffer
 	cmddid.Cmd.SetOut(&stdout)
 	cmddid.Cmd.SetErr(&stderr)

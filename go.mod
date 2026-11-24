@@ -6,7 +6,7 @@ require (
 	github.com/fil-forge/automobile v0.0.1
 	github.com/fil-forge/go-ipni-tools v0.0.0-20260820150418-78ca0c16834d
 	github.com/fil-forge/libforge v0.0.0-20260828121550-2585ed1e5e50
-	github.com/fil-forge/ucantone v0.0.0-20261120104359-4253712d41e4
+	github.com/fil-forge/ucantone v0.0.0-20261123131543-0ef2b25abb66
 	github.com/fil-forge/ucantool v0.1.1-0.20260828113620-3bf3c8647457
 	github.com/ipfs/go-cid v0.6.2
 	github.com/ipni/go-libipni v0.8.2
